@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", serif;
+    background-color: rgb(17, 13, 27);
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    color: white;
+}
+
+.nav_options {
+    display: flex;
+    align-items: center;
+    gap: 3.2vw;
+    /* background-color: rgb(245, 242, 249); */
+}
+
+.nav_options i {
+    display: none;
+    font-size: 1.5vw;
+    font-weight: 600;
+
+}
+
+nav h2 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.nav_options h4 {
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+.nav_options h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav_options button {
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 0.7vw 2.1vw;
+    background-color: #b7e4c7;
+    border: none;
+    border-radius: 3px;
+}
+
+.nav_options button:hover {
+   color:white;
+    background-color: #6A6851;
+    cursor: pointer;
+   
+}
+.container {
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    padding: 4vw 5vw;
+
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(202, 236, 171); */
+    padding: 0 7vw;
+
+}
+
+.left h1 {
+    font-family: "Parkinsans";
+    font-size: 4vw;
+    line-height: 3.8vw;
+    font-weight: 500;
+    color: white;
+}
+
+.left h1 span {
+    color: #40916c;
+}
+
+.left p {
+    font-size: 1.2vw;
+    width: 80%;
+    font-weight: 400;
+    color: #d8f3dc;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+.left button {
+    font-size: 1.4vw;
+    font-weight: 600;
+    padding: 1.3vw 2.5vw;
+    background-color: #74c69d;
+    border: none;
+    border-radius: 5px;
+}
+.left button:hover {
+    color:white;
+     background-color: #6A6851;
+     cursor: pointer;
+    
+ }
+.right img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
